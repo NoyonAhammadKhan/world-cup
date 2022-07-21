@@ -451,6 +451,25 @@ hr{
 
 
 
+@media screen and (min-width:577px) and (max-width:992px){
+    .matches{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .match{
+        width: 252px;
+        height: 162px;
+        border: 1px solid gray;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+
+}
+
+
+
 /* //footer in tablet view */
 /* ellipses in mobile view */
 /* social link in footer */
