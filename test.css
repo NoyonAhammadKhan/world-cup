@@ -17,6 +17,10 @@
 }
 
 
+.great-img{
+    background-image: url("./assets/cr-7.png");
+}
+
 
 
 /* .great-text h1{
@@ -43,3 +47,10 @@
     height: 225px;
     padding: 40px;
 } */
+
+
+.great-img img{
+    width:233px;
+    height: 225px;
+    padding: 40px;
+}

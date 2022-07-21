@@ -35,9 +35,35 @@ section{
     font-size: 1em;
 }
 
+
+
+
+/* <--------Animation For Header----------> */
+
+@keyframes changeImage {
+    0%{
+        content: url("./assets/Banner_Image.png");
+    }
+    25%{
+        content: url("./assets/messi.png");
+    }
+    50%{
+        content:url("./assets/cr-7.png");
+    }
+    75%{
+        content: url("./assets/neymar.png");
+    }
+    100%{
+        content: url("./assets/messi.png");
+    }
+
+}
+
+
 .great-img img{
     width:581px;
     height: 613px;
+    animation: changeImage 3s linear infinite;
 }
 
 .great-text, .great-img{
@@ -61,6 +87,13 @@ section{
 big-screen{
     display: block;
 }
+
+#cr{
+    display: none;
+}
+
+
+
 
 /* <-----------------------Blog Section-------------------------> */
 
@@ -196,6 +229,12 @@ hr{
     padding-top: 50px;
 }
 
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
 
 
 
@@ -296,6 +335,7 @@ hr{
         
     .great-text p{
         font-size: 14px;
+        text-overflow: ellipsis;
     }
 
     .watch-live{
@@ -406,4 +446,19 @@ hr{
         text-align: center;
         border-radius: 10px;
     }
+    
 }
+
+
+
+/* //footer in tablet view */
+/* ellipses in mobile view */
+/* social link in footer */
+
+/* Bonus */
+/* 1.google font */
+/* 2.tablet view more */
+/* 3.animation in header */
+/* 4.comment in css */
+/* different color */
+
