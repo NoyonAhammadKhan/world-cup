@@ -1,0 +1,45 @@
+
+
+.greatest-show{
+    background-color: black;
+    width:334px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.great-text{
+    text-align: center;
+    color: white;
+    width:258px;
+    padding-top:30px;
+
+}
+
+
+
+
+/* .great-text h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.watch-live{
+    font-size: 20px;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.watch-live{
+    background-color: red;
+}
+
+.great-img img{
+    width:233px;
+    height: 225px;
+    padding: 40px;
+} */
